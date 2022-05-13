@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
 /* Navbar */
 .navbar{
     display: flex;
@@ -33,7 +36,45 @@
 .navbar ul li a:hover{
     background-color: white;
     color: black;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 0.625rem white;
 }
 
 /* Home Section */ 
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 52.5rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('Image-3.jpg') no-repeat center center/cover;
+    height: 56.25rem;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 0.0625rem solid white;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2.5rem 0rem;
+}
+.btn{
+    padding: 
+}
