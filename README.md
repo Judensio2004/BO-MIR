@@ -5,3 +5,4 @@ Een portfolio over mezelf zo dat bedrijven/klanten mij kunnen inhuren om een sit
 
 
 [link naar trello:](https://trello.com/b/75tUE4hE/product-backlog)
+"# BO-MIR" 
